@@ -5,8 +5,7 @@ class Wallet:
   def setamount(self,balance):
       self.balance = balance
       
-      
-  def getamount(self,balance):
+  def getamount(self):
       return self.balance
     
   def removeamount(self,balance):
