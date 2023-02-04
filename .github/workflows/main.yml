@@ -13,7 +13,7 @@ jobs:
       
       
     - name: Install Package
-      run: pip install ptest
+      run: pip install pytest
       
     - name: Run tests
       run: pytest test.py
